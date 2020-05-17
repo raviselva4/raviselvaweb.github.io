@@ -1,0 +1,203 @@
+body {
+    background-color: #e5e6e4;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  background-color: white;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  padding: 15px;
+}
+
+.nav-item:hover {
+    background-color: #e5e6e4;
+}
+
+.navbar-brand {
+    background-color: rgb(2, 177, 180);
+    font-family: serif;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 5%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.bottom {
+  position: relative;
+  font-size: small;
+  bottom: -20px;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  padding-top: 15px;
+  border-top: 6px solid rgb(2, 177, 180);
+}
+
+.fixed-bottom {
+  font-size: small;
+  background-color: grey;
+  color: white;
+  padding-top: 15px;
+  border-top: 6px solid rgb(2, 177, 180);
+}
+
+/**  End of Navigation Bar Style...  *****/
+
+.brow {
+    padding: 5%;
+}
+
+.col-md-7, .col-md-4, .comp {
+    height: 10%;
+    padding-bottom: 5%;
+    padding-top: 40px;
+    background-color: white;
+}
+
+.col-md-7 h2, .col-md-4 h2, .comp h2, .data h2 {
+    /* margin-top: -1%; */
+    font-family: serif;
+    font-weight: bold;
+    color: rgb(2, 177, 180);
+}
+
+.comp {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.comp aside {
+  margin-top: -20px;
+}
+.comp p {
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(2, 177, 180);
+  padding-top: 8%;
+}
+
+.comp img {
+  margin-top: -10px;
+}
+
+.brow hr {
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.d-md-none {
+  padding-top: 2%;
+}
+
+.main img {
+    height: 150px;
+}
+
+.col-2 {
+    margin-bottom: 5%;
+}
+
+.center {
+  text-align:center;
+}
+
+.plot {
+  padding-bottom: 20px;
+}
+
+.boximg {
+  border: 2px solid rgb(2, 177, 180);
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      margin: 0;
+      padding: 0;
+  }
+
+  .navhead {
+      background-color: rgb(2, 177, 180);
+  }
+
+  .navbar button {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .dropdown-menu {
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .dropdown-item {
+    color: grey;
+  }
+
+  #navbarSupportedContent{
+    background-color: white;
+    padding-left: 20px;
+  }
+
+  .col-md-4 {
+    margin-top: 5%;
+    padding-bottom: 1%;
+  }
+
+  .col-md-4 img {
+    padding: 0px;
+    margin-left: 20px;
+  }
+
+  .comp p {
+    margin-top: -10px;
+  }
+
+  .col-12 {
+    margin-right: -20px;
+  }
+}
+
+.col-12 {
+  /* po */
+  height: 10%;
+  padding-bottom: 5%;
+  padding-top: 40px;
+  background-color: white;
+}
+
+.dgrp {
+  font-family: serif;
+  font-size: small;
+  font-weight: normal;
+}
+
+table {
+    margin-top: 50px;
+    /* border-top: none !important; */
+}
+
+/* .table > thead > th { */
+/* .thead {
+    border-top: none;
+} */
+/* .table-borderless th {
+  border: none;
+} */
+
+/****     subsequent screen codes  ***/
+
+.pt5 {
+    padding-top: 5%;
+}
